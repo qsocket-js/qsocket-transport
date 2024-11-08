@@ -23,7 +23,7 @@ To install the `@qsocket/transport` package, run:
 npm install @qsocket/transport
 ```
 
-> **Note**: This package requires `@qsocket/core` to function properly. Please ensure that `@qsocket/core` is installed in your project.
+> **Note**: It is recommended to use this library in conjunction with `@qsocket/core` for full functionality, or in cases where your project requires multiple versions of the same transport library.
 
 ## Usage
 
