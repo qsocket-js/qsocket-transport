@@ -63,7 +63,13 @@
 	"dependencies": {
 		"@qsocket/transport-engine.io-client-latest": "^0.0.1-alpha",
 		"@qsocket/transport-engine.io-client-v3": "^0.0.1-alpha",
-		"@qsocket/transport": "^0.0.1-alpha",
+		"@qsocket/transport-engine.io-latest": "^0.0.1-alpha",
+		"@qsocket/transport-engine.io-v3": "^0.0.1-alpha"
+	},
+	"peerDependencies": {
+		"@qsocket/transport-engine.io-client-latest": "^0.0.1-alpha",
+		"@qsocket/transport-engine.io-client-v3": "^0.0.1-alpha",
+		"@qsocket/transport-engine.io-latest": "^0.0.1-alpha",
 		"@qsocket/transport-engine.io-v3": "^0.0.1-alpha"
 	},
 	"devDependencies": {
