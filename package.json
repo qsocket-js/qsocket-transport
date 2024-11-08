@@ -42,11 +42,9 @@
 		"dev": "tsup ./src/index.ts --watch --onSuccess \"node ./dist/index.js\"",
 		"start": "node ./dist/index.js",
 		"build": "tsup",
-		"build:types": "dts-bundle-generator -o dist/index.d.ts src/index.ts",
 		"lint": "eslint \"**/*.{ts,tsx}\"",
 		"lint:fix": "eslint \"**/*.{ts,tsx}\" --fix --color",
-		"format": "prettier --write src/",
-		"publish": "npm publish --access public"
+		"format": "prettier --write src/"
 	},
 	"repository": {
 		"type": "git",
