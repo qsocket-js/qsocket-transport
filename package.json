@@ -1,7 +1,7 @@
 {
 	"name": "@qsocket/transport",
 	"description": "Unified transport package for the qsocket library, providing multiple transport options for engine.io and engine.io-client. Includes support for both the latest and legacy versions, allowing flexible integration across different environments for server and client connections.",
-	"version": "0.0.1-beta",
+	"version": "0.0.1-rc",
 	"keywords": [
 		"qsocket",
 		"engine.io",
@@ -61,13 +61,13 @@
 		}
 	],
 	"dependencies": {
-		"@qsocket/transport-engine.io-client-latest": "0.0.1-beta",
+		"@qsocket/transport-engine.io-client-latest": "0.0.1-rc",
 		"@qsocket/transport-engine.io-client-v3": "0.0.1-rc",
 		"@qsocket/transport-engine.io-latest": "0.0.1-rc2",
 		"@qsocket/transport-engine.io-v3": "0.0.1-rc"
 	},
 	"peerDependencies": {
-		"@qsocket/transport-engine.io-client-latest": "0.0.1-beta",
+		"@qsocket/transport-engine.io-client-latest": "0.0.1-rc",
 		"@qsocket/transport-engine.io-client-v3": "0.0.1-rc",
 		"@qsocket/transport-engine.io-latest": "0.0.1-rc2",
 		"@qsocket/transport-engine.io-v3": "0.0.1-rc"

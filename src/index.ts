@@ -24,6 +24,7 @@ export {
 export {
 	default as createEngineIOClientLatest,
 	QSocketTransportEIOClientLatestSocket,
+	type IQSocketTransportEIOClientLatestSocket,
 	type IQSocketTransportEIOClientLatestSocketOptions,
 	type IQSocketTransportEIOClientLatestSocketWithoutUpgrade,
 	type IQSocketTransportEIOClientLatestSocketWithUpgrade,
