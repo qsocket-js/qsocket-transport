@@ -1,4 +1,4 @@
-// Реэкспорт всех сущностей и типов из `@qsocket/transport-engine.io-latest`
+//`@qsocket/transport-engine.io-latest`
 export {
 	default as createEngineIOLatest,
 	QSocketTransportEIOLatestServer,
@@ -9,7 +9,7 @@ export {
 	type IQSocketTransportEIOLatestServerOptions,
 } from '@qsocket/transport-engine.io-latest';
 
-// Реэкспорт всех сущностей и типов из `@qsocket/transport-engine.io-v3`
+//`@qsocket/transport-engine.io-v3`
 export {
 	default as createEngineIOV3,
 	QSocketTransportEIOV3Server,
@@ -20,7 +20,7 @@ export {
 	type IQSocketTransportEIOV3ServerOptions,
 } from '@qsocket/transport-engine.io-v3';
 
-// Реэкспорт всех сущностей и типов из `@qsocket/transport-engine.io-client-latest`
+//`@qsocket/transport-engine.io-client-latest`
 export {
 	default as createEngineIOClientLatest,
 	QSocketTransportEIOClientLatestSocket,
@@ -43,7 +43,7 @@ export {
 	QSocketTransportEIOClientLatestProtocol,
 } from '@qsocket/transport-engine.io-client-latest';
 
-// Реэкспорт всех сущностей и типов из `@qsocket/transport-engine.io-client-v3`
+//`@qsocket/transport-engine.io-client-v3`
 export {
 	default as createEngineIOClientV3,
 	QSocketTransportEIOClientV3Socket,
